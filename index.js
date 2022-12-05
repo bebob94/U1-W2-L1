@@ -20,6 +20,7 @@ float= valore numerico decimale
 booleano= inserisci delle variabili che diano come risultato vero o falso es. 50>60?=falso oppure 30<60?=vero
 undefined= la variabile selezionata non ha mai avuto un valore
 costant= definisce una variabile che non può essere modificata
+nul= Viene usato per svuotare una variabile precedentemente utilizzata
 let= definisce una variabile che può essere modificata
       */
 
@@ -27,8 +28,9 @@ let= definisce una variabile che può essere modificata
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 var name= "Alberto";
+var surname= "Macis";
 
-console.log("il mio nome è " + name);
+console.log("il mio nome è " + name + ", il mio cognome è " + surname );
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -79,7 +81,7 @@ console.log(name1 === name2)
 console.log(name1 === name2.toLowerCase())
 
 
-// prove di and or not
+// prove di "and, or, not"
 
 let num1= 60
 let num2= 40
@@ -91,7 +93,7 @@ console.log(30< num1 || num2 || num3)
 
 console.log( !(num1 < num3))
 
-// prove typ of
+// prove "typ of"
 
 console.log(typeof name1)
 
